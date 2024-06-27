@@ -41,12 +41,12 @@ builder.Services.AddSwaggerGen(
             {
                 Title = "MealMaster.API",
                 Version = "v1",
-                Description = "ACME Learning Center Platform API",
-                TermsOfService = new Uri("https://acme-learning.com/tos"),
+                Description = "MealMaster API",
+                TermsOfService = new Uri("https://mealmaster.com/tos"),
                 Contact = new OpenApiContact
                 {
-                    Name = "ACME Studios",
-                    Email = "contact@acme.com"
+                    Name = "MealMaster",
+                    Email = "contact@mealmaster.com"
                 },
                 License = new OpenApiLicense
                 {
